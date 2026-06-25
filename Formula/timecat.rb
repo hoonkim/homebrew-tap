@@ -1,8 +1,8 @@
 class Timecat < Formula
   desc "Large 7-segment digital clock for modern terminals"
   homepage "https://github.com/hoonkim/timecat"
-  url "https://github.com/hoonkim/timecat/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "9bf73e2a637c0de5cc63b430d347b953b57c69fad6a3a69a26db8dd0ae342584"
+  url "https://github.com/hoonkim/timecat/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "6e70fec350be436a9d4e050d7f34e5fcf54e07390c4de8058c43165e53aff09b"
   head "https://github.com/hoonkim/timecat.git", branch: "develop"
 
   depends_on "rust" => :build
@@ -12,6 +12,6 @@ class Timecat < Formula
   end
 
   test do
-    assert_match "timecat 0.1.0", shell_output("#{bin}/timecat --version")
+    assert_match "timecat 0.1.1", shell_output("#{bin}/timecat --version")
   end
 end
