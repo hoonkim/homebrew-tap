@@ -1,8 +1,8 @@
 class Webcat < Formula
   desc "Modal terminal web browser — headless Chrome rendered in Kitty"
   homepage "https://github.com/hoonkim/webcat"
-  url "https://github.com/hoonkim/webcat/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "8d550347dd02487c5f543c775c51118619dd0bba171d0b5f0f85622a354f0f34"
+  url "https://github.com/hoonkim/webcat/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "caa0ae6615803ee32b4dc838fbca09ac05823d1bf5ba2893cb2f91063aee50aa"
   head "https://github.com/hoonkim/webcat.git", branch: "main"
 
   depends_on "rust" => :build
