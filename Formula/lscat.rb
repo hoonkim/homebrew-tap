@@ -1,8 +1,8 @@
 class Lscat < Formula
   desc "Rust terminal file explorer designed for kitty"
   homepage "https://github.com/hoonkim/lscat"
-  url "https://github.com/hoonkim/lscat/releases/download/v0.2.0/lscat-0.2.0.tar.gz"
-  sha256 "89ae24047ee0629b2b24074d9e47b38dd3ed7e18913fdae1fecbb5579622f0b6"
+  url "https://github.com/hoonkim/lscat/releases/download/v0.3.0/lscat-0.3.0.tar.gz"
+  sha256 "923e5c766847448a5d27739c172fa60bd6d8f7ede585f337d964ae073e01cfd9"
   license :cannot_represent
 
   depends_on "rust" => :build
