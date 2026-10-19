@@ -20,7 +20,7 @@ brew install hoonkim/tap/timecat
 
 ## mail-strainer
 
-A Gmail spam classifier using [gws](https://github.com/googleworkspace/cli) and OpenRouter, with a local SQLite web UI.
+A Gmail spam classifier using [gws](https://github.com/googleworkspace/cli) and TypeSafe Jev on OpenRouter, with a local SQLite web UI.
 
 ```bash
 brew install hoonkim/tap/mail-strainer

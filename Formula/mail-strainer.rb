@@ -1,8 +1,8 @@
 class MailStrainer < Formula
-  desc "Gmail spam classifier using gws and OpenRouter, with a local SQLite web UI"
+  desc "Gmail spam classifier using gws and TypeSafe Jev, with a local SQLite web UI"
   homepage "https://github.com/hoonkim/mail-strainer"
-  url "https://github.com/hoonkim/mail-strainer/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "79325dcce4fecbd301b6d105c6e00300cb3a30e76f6f917cb95fc0afec79f11e"
+  url "https://github.com/hoonkim/mail-strainer/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "24d54e1ed57f6d1b8a9c0bdf535926470fe593908894eb1575f2b81609f13055"
   license :cannot_represent
 
   depends_on "python@3.14"
